@@ -14,9 +14,7 @@ This project demonstrates a **Blue/Green deployment setup** using **AWS Elastic 
 4. Test Green.
 5. Swap URLs when Green is stable.
  
-## 📸 Visual
-- Blue version header: `BLUE Environment — Version 1`
-- Green version header: `GREEN Environment — Version 2`   
+   
 ## Project Documentation 
 Detailed explanation , screenshots and architecture diagram :
 

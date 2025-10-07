@@ -11,6 +11,13 @@ echo "<h1 style='color:green;'>GREEN Environment — Version 2</h1>";
 
 if (!$dbHost || !$dbName || !$dbUser || !$dbPass) {
     echo "<p><strong>DB environment variables not set!</strong></p>";
+    echo "<p>Current variables:</p>";
+    echo "<pre>";
+    echo "DB_HOST: " . ($dbHost ?: '❌ Missing') . "\\n";
+    echo "DB_NAME: " . ($dbName ?: '❌ Missing') . "\\n";
+    echo "DB_USER: " . ($dbUser ?: '❌ Missing') . "\\n";
+    echo "DB_PASS: " . ($dbPass ? '✅ Set (hidden)' : '❌ Missing') . "\\n";
+    echo "</pre>";
     exit;
 }
 

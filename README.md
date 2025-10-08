@@ -16,7 +16,7 @@ This project demonstrates a **Blue/Green deployment setup** using **AWS Elastic 
  
    
 ## Project Documentation 
-Detailed explanation , screenshots and architecture diagram :
+Detailed explanation , screenshots and architecture diagram : (https://multi-tier-aws-project.blogspot.com/2025/10/aws-blue-green-deployment-project.html)
 
 **Note** : Lambda and PHP code were adapted using AWS SDK documentation and AI-based code assistance.
 The main focus of this project is AWS architecture , deployment and Blue/Green strategy.
